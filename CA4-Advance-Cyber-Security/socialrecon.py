@@ -14,17 +14,17 @@ C = '\033[1;36;40m'
 Y = '\033[1;33;40m' 
 def reconinput():
     inp=(input("Info>> "))
-    if(inp == '1'):
+    if(inp == '4'):
         recon()
-    elif (inp=='2'):
-        iplocate()
-    elif(inp=='3'):
-        read_multiple_ip()
-    elif(inp =='4'):
-        urlinfo()
     elif (inp=='5'):
-        pdfinfo()
+        iplocate()
     elif(inp=='6'):
+        read_multiple_ip()
+    elif(inp =='1'):
+        urlinfo()
+    elif (inp=='2'):
+        pdfinfo()
+    elif(inp=='3'):
         Links()
     elif (inp=='7'):
         Nameinfo()
